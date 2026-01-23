@@ -1,0 +1,21 @@
+# CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
