@@ -19,7 +19,7 @@ cd process_data
 python process_data.py
 ```
 
-### Constructs user–item interaction sequences for collaborative filtering.
+### Constructs interaction sequences for SASRec.
 ```
 python process_collaborative_data.py
 ```
