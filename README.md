@@ -12,23 +12,31 @@ accelerate==0.8.0
 We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page](https://amazon-reviews-2024.s3.amazonaws.com/index.html).
 
 ## 🚀 Training Pipeline
+```
+python construct_MITG.py
+python recasting_MITG.py
+```
 
 ### Preprocesses the raw dataset (cleaning, filtering, formatting).
+```
 python process_data.py
+```
 
 ### Constructs user–item interaction sequences for collaborative filtering.
+```
 python process_collaborative_data.py
-
+```
 Then the SASRec model is employed to capture sequential user behaviors and derive product embeddings.
 
-
 ### Construct Visual-Semantic Units.
+```
 python compose_card.py
+```
 
 ### Encodes visual semantic units by integrating visual, semantic, and collaborative information.
+```
 python encoder_card.py
-
-
+```
 
 
 
