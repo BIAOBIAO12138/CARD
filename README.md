@@ -36,6 +36,7 @@ python encoder_card.py
 ```
 
 ## 🚀 Training Pipeline
+train the NU-RQ-VAE
 ```
 cd nu-rq-vae
 python main.py
