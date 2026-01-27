@@ -1,6 +1,6 @@
 # CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation
 
-### Environment
+## Environment
 python==3.8.13  
 torch==2.0.0  
 torchvision==0.15.1  
@@ -8,21 +8,21 @@ torchaudio==2.0.1
 transformers==4.46.2 
 accelerate==0.8.0 
 
-### Dataset 
+## Dataset 
 We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page](https://amazon-reviews-2024.s3.amazonaws.com/index.html).
 
-### 🚀 Training Pipeline
+## 🚀 Training Pipeline
 
-## Preprocesses the raw dataset (cleaning, filtering, formatting).
+### Preprocesses the raw dataset (cleaning, filtering, formatting).
 python process_data.py
 
-## Constructs user–item interaction sequences for collaborative filtering.
+### Constructs user–item interaction sequences for collaborative filtering.
 python process_collaborative_data.py
 
-## Construct Visual-Semantic Units.
+### Construct Visual-Semantic Units.
 python compose_card.py
 
-## Encodes visual semantic units by integrating visual, semantic, and collaborative information.
+### Encodes visual semantic units by integrating visual, semantic, and collaborative information.
 python encoder_card.py
 
 
