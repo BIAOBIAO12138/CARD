@@ -12,10 +12,6 @@ accelerate==0.8.0
 We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page](https://amazon-reviews-2024.s3.amazonaws.com/index.html).
 
 ## 🚀 Training Pipeline
-```
-python construct_MITG.py
-python recasting_MITG.py
-```
 
 ### Preprocesses the raw dataset.
 ```
