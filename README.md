@@ -14,7 +14,7 @@ We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 201
 cd process_data
 ```
 
-### Preprocesses the raw dataset.
+### Processes the raw dataset.
 ```
 python process_data.py
 ```
