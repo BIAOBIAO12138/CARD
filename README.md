@@ -19,6 +19,9 @@ python process_data.py
 ### Constructs user–item interaction sequences for collaborative filtering.
 python process_collaborative_data.py
 
+Then the SASRec model is employed to capture sequential user behaviors and derive product embeddings.
+
+
 ### Construct Visual-Semantic Units.
 python compose_card.py
 
