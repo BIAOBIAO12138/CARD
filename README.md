@@ -13,6 +13,17 @@ We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 201
 
 ### 🚀 Training Pipeline
 
+## Preprocesses the raw dataset (cleaning, filtering, formatting).
+python process_data.py
+
+## Constructs user–item interaction sequences for collaborative filtering.
+python process_collaborative_data.py
+
+## Construct Visual-Semantic Units.
+python compose_card.py
+
+## Encodes visual semantic units by integrating visual, semantic, and collaborative information.
+python encoder_card.py
 
 
 
