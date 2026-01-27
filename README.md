@@ -1,9 +1,5 @@
 # CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation
 
-
-
-
-
 ### Environment
 python==3.10  
 torch==2.5.1  
