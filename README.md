@@ -46,6 +46,7 @@ python generate_code.py
 train the model
 ```
 cd model
+python main.py
 ```
 
 
