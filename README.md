@@ -43,7 +43,10 @@ python main.py
 python generate_code.py
 ```
 
-
+train the model
+```
+cd model
+```
 
 
 
