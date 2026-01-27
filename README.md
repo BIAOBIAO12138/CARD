@@ -38,6 +38,8 @@ python encoder_card.py
 ## 🚀 Training Pipeline
 ```
 cd nu-rq-vae
+python main.py
+python generate_code.py
 ```
 
 
