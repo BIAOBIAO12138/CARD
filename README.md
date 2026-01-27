@@ -11,7 +11,7 @@ accelerate==0.8.0
 ## Dataset 
 We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page](https://amazon-reviews-2024.s3.amazonaws.com/index.html).
 
-## 🚀 Training Pipeline
+## Process Data
 
 ### Preprocesses the raw dataset.
 ```
@@ -33,6 +33,20 @@ python compose_card.py
 ```
 python encoder_card.py
 ```
+
+## 🚀 Training Pipeline
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
