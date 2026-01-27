@@ -36,9 +36,9 @@ python encoder_card.py
 ```
 
 ## 🚀 Training Pipeline
-
-
-
+```
+cd nu-rq-vae
+```
 
 
 
