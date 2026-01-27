@@ -17,7 +17,7 @@ python construct_MITG.py
 python recasting_MITG.py
 ```
 
-### Preprocesses the raw dataset (cleaning, filtering, formatting).
+### Preprocesses the raw dataset.
 ```
 python process_data.py
 ```
@@ -33,7 +33,7 @@ Then the SASRec model is employed to capture sequential user behaviors and deriv
 python compose_card.py
 ```
 
-### Encodes visual semantic units by integrating visual, semantic, and collaborative information.
+### Encodes visual semantic units.
 ```
 python encoder_card.py
 ```
