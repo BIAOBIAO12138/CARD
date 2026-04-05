@@ -26,7 +26,7 @@ python process_collaborative_data.py
 ```
 Then the SASRec model is employed to capture sequential user behaviors and derive product embeddings.
 
-### ▶️ Construct Visual-Semantic Units.
+### ▶️ Construct visual semantic units.
 ```
 python compose_card.py
 ```
