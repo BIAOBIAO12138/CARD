@@ -10,7 +10,7 @@ transformers==4.46.2
 accelerate==0.8.0 
 
 ## 📦 Dataset 
-We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page]([https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews]).
+We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 2014 Dataset Page](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews).
 ```
 cd process_data
 ```
