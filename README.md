@@ -1,5 +1,6 @@
 # CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation
 # Framework
+[![Framework](./framework.png)](./Framework.pdf)
 ## Environment
 python==3.8.13  
 torch==2.0.0  
