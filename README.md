@@ -1,7 +1,7 @@
 # CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation
 # Framework
 ![CARD](./CARD.svg)
-## Environment
+## 🛠️ Environment
 python==3.8.13  
 torch==2.0.0  
 torchvision==0.15.1  
@@ -15,7 +15,7 @@ We use the Amazon Reviews 2014 dataset. You may download it from the [Amazon 201
 cd process_data
 ```
 
-### Processes the raw dataset.
+### 📁 Processes the raw dataset.
 ```
 python process_data.py
 ```
@@ -26,12 +26,12 @@ python process_collaborative_data.py
 ```
 Then the SASRec model is employed to capture sequential user behaviors and derive product embeddings.
 
-### Construct Visual-Semantic Units.
+### ▶️ Construct Visual-Semantic Units.
 ```
 python compose_card.py
 ```
 
-### Encodes visual semantic units.
+### ⚙️ Encodes visual semantic units.
 ```
 python encoder_card.py
 ```
