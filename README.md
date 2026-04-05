@@ -20,7 +20,7 @@ cd process_data
 python process_data.py
 ```
 
-### Constructs interaction sequences for SASRec.
+### 🔧 Constructs interaction sequences for SASRec.
 ```
 python process_collaborative_data.py
 ```
