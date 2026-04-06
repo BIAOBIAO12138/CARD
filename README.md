@@ -2,11 +2,11 @@
 # Framework
 ![CARD](./CARD.svg)
 ## 🛠️ Environment
-python==3.8.13  
-torch==2.0.0  
-torchvision==0.15.1  
-torchaudio==2.0.1  
-transformers==4.46.2 
+python==3.8.13  <br>
+torch==2.0.0  <br>
+torchvision==0.15.1  <br>
+torchaudio==2.0.1  <br>
+transformers==4.46.2 <br>
 accelerate==0.8.0 
 
 ## 📦 Dataset 
