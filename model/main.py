@@ -149,7 +149,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="TIGER configuration")
     parser.add_argument('--batch_size', type=int, default=512, help='Batch size for training')
     parser.add_argument('--infer_size', type=int, default=256, help='Inference size for generating recommendations')
-    parser.add_argument('--num_epochs', type=int, default=200, help='Number of epochs for training')
+    parser.add_argument('--num_epochs', type=int, default=500, help='Number of epochs for training')
     parser.add_argument('--lr', type=float, default=1e-4, help='Learning rate for the optimizer')
     parser.add_argument('--device', type=str, default='cuda:0', help='Device to run the model on (e.g., "cuda" or "cpu")')
     parser.add_argument('--num_layers', type=int, default=4, help='Number of layers in the model')
