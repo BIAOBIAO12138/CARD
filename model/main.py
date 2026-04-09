@@ -171,7 +171,7 @@ if __name__ == "__main__":
     parser.add_argument('--seed', type=int, default=2025, help='Random seed for reproducibility')
     parser.add_argument('--save_path', type=str, default='./ckpt/tiger.pth', help='Path to save the trained model')
     parser.add_argument('--early_stop', type=int, default=100, help='Early stopping patience')
-    parser.add_argument('--eval_every', type=int, default=5, help='Run validation/test every N epochs')
+    parser.add_argument('--eval_every', type=int, default=1, help='Run validation/test every N epochs')
     parser.add_argument('--topk_list', type=list, default=[5,10,20], help='List of top-k values for evaluation metrics')
     parser.add_argument('--beam_size', type=int, default=20, help='Beam size for generation')
     config = vars(parser.parse_args())
